@@ -2,6 +2,81 @@
     font-family: newfont;
     src: url(./font/Poppins-Medium.ttf);
 }
-body{
+
+body {
     font-family: newfont;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+section{
+    margin-bottom: 30px;
+}
+section h2{
+    font-size:  2em;
+    color: #0044cc;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+section p{
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+}
+ul li{
+    font-size: 1.1em;
+    margin-bottom:  10px;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #003399;
 }
