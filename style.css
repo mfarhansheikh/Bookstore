@@ -115,3 +115,23 @@ ul li{
     font-size: 1.1em;
     color: #666;
 }
+/* contact page css */
+form{
+    display: inline-block;
+    max-width: 400px;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea, form button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom:  10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}form button:hover{
+    background-color: #003399;
+}
