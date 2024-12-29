@@ -80,3 +80,38 @@ ul li{
 .btn:hover{
     background-color: #003399;
 }
+/* book page css */
+.book-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.book-card{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px;
+    rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transform: transform 0.2s;
+}
+.book-card:hover{
+    transform: scale(1.05);
+}
+.book-card img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.book-card h3{
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.book-card p{
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #666;
+}
